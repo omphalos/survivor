@@ -1,6 +1,8 @@
 ((function(root, factory) {
+  /* istanbul ignore else */
   if(typeof exports === 'object')
     module.exports = factory()
+  /* istanbul ignore if */
   else if (typeof define === 'function' && define.amd)
     define([], factory)
   else root.survivor = factory()
