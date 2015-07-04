@@ -1,6 +1,9 @@
 Survivor
 ========
 
+[![Build Status](https://secure.travis-ci.org/omphalos/survivor.png)](http://travis-ci.org/omphalos/survivor)
+[![Coverage Status](https://coveralls.io/repos/omphalos/survivor/badge.svg?branch=master)](https://coveralls.io/r/omphalos/survivor?branch=master)
+
 Survivor is a utility
 for finding the original locations of changed text in a diff.
 
