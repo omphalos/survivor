@@ -1,11 +1,10 @@
 {
   "name": "survivor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A utility for finding the original location of changed text in a diff.",
   "main": "survivor.js",
   "scripts": {
-    "test": "./node_modules/istanbul/lib/cli.js cover node_modules/nodeunit/bin/nodeunit -- ./tests.js",
-    "coverage": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
+    "test": "./node_modules/istanbul/lib/cli.js cover node_modules/nodeunit/bin/nodeunit -- ./tests.js"
   },
   "repository": {
     "type": "git",
@@ -21,7 +20,6 @@
   },
   "homepage": "https://github.com/omphalos/survivor",
   "devDependencies": {
-    "coveralls": "^2.11.2",
     "googlediff": "^0.1.0",
     "istanbul": "^0.3.17",
     "nodeunit": "^0.9.1"

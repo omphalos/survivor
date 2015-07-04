@@ -2,7 +2,6 @@ Survivor
 ========
 
 [![Build Status](https://secure.travis-ci.org/omphalos/survivor.png)](http://travis-ci.org/omphalos/survivor)
-[![Coverage Status](https://coveralls.io/repos/omphalos/survivor/badge.svg)](https://coveralls.io/r/omphalos/survivor)
 
 Survivor is a utility
 for finding the original locations of changed text in a diff.
@@ -16,6 +15,10 @@ Installation
 ============
 
 Run `npm install survivor`.
+
+In the browser, add a script tag referencing *survivor.js*.
+Since survivor uses [UMD](https://github.com/umdjs/umd),
+this will expose 'survivor' as a global variable.
 
 Usage
 =====
@@ -34,10 +37,6 @@ Usage
 
     // lookup 'b' from 'brown' (moved in the new version)
     lookup({ line: 0, col: 7 }) // returns { line: 0, col: 8 }
-
-In the browser, add a script tag referencing *survivor.js*.
-Since survivor uses [UMD](https://github.com/umdjs/umd),
-this will expose 'survivor' as a global variable.
 
 Tests
 =====
