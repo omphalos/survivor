@@ -1,6 +1,6 @@
 {
   "name": "survivor",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A utility for finding the original location of changed text in a diff.",
   "main": "survivor.js",
   "scripts": {
